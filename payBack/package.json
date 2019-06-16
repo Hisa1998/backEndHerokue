@@ -1,0 +1,43 @@
+{
+  "name": "software-engineering",
+  "version": "1.0.0",
+  "description": "Software Engineering",
+  "main": "index.js",
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "apidoc": "^0.17.7",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "config": "^3.0.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "expect": "^1.20.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "fawn": "^2.1.5",
+    "is-image-url": "^1.1.8",
+    "jest": "^24.5.0",
+    "joi": "^14.3.1",
+    "joi-objectid": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.11",
+    "mocha": "^6.1.4",
+    "mongoose": "^5.4.19",
+    "nodemailer": "^5.1.1",
+    "nodemon": "^1.18.10",
+    "sendgrid": "^5.2.3"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "istanbul": "^0.4.5",
+    "jsdoc": "^3.5.5",
+    "nyc": "^14.1.0",
+    "supertest": "^4.0.2"
+  },
+  "scripts": {
+    "test": "nyc --reporter=html mocha --timeout 25000 --exit"
+  },
+  "author": "",
+  "license": "ISC"
+}
