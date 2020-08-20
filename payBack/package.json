@@ -6,7 +6,7 @@
   "dependencies": {
     "@sendgrid/mail": "^6.3.1",
     "apidoc": "^0.17.7",
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.18.3",
     "chai": "^4.2.0",
     "config": "^3.0.1",
